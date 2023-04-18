@@ -100,6 +100,44 @@ button {
 }
 
 /**
+  Sidedrawer CSS
+*/
+#sidedrawer-title {
+  padding-left: 20px;
+}
+
+#sidedrawer input {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#sidedrawer ul {
+  list-style: none;
+}
+
+#sidedrawer>ul {
+  padding-left: 0px;
+}
+
+#sidedrawer>ul>li:first-child {
+  padding-top: 15px;
+}
+
+#sidedrawer strong {
+  display: block;
+  padding: 15px 22px;
+  cursor: pointer;
+}
+
+#sidedrawer strong:hover {
+  background-color: #E0E0E0;
+}
+
+#sidedrawer strong+ul>li {
+  padding: 6px 0px;
+}
+
+/**
   Header CSS
 */
 .sidedrawer-toggle {
