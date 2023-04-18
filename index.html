@@ -9,16 +9,41 @@
   <link rel="stylesheet" href="style.css" />
   <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
   <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-  <style>
-    /* Tutorial CSS goes here */
-  </style>
-  <script>
-    /* Tutorial JavaScript goes here */
-  </script>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-  <!-- Tutorial HTML goes here -->
+  <div id="sidedrawer" class="mui--no-user-select">
+    <input type="text" placeholder="Search for city...">
+    <p>City 1</p>
+    <p>City 2</p>
+    <p>City 3</p>
+    <p>City 4</p>
+  </div>
+  <header id="header">
+    <div class="mui-appbar mui--appbar-line-height">
+      <div class="mui-container-fluid">
+        <a class="sidedrawer-toggle mui--visible-xs-inline-block mui--visible-sm-inline-block js-show-sidedrawer">&#9788</a>
+        <a class="sidedrawer-toggle mui--hidden-xs mui--hidden-sm js-hide-sidedrawer">&#9788</a>
+        <span class="mui--text-title">Weather Dashboard</span>
+      </div>
+    </div>
+  </header>
+  <div id="content-wrapper">
+    <!-- empty div creating padding so content is below header -->
+    <div class="mui--appbar-height"></div>
+    <div class="mui-container-fluid">
+      <h1>Weather display and info</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci qui quasi tempore praesentium quibusdam velit eveniet corporis optio quaerat sed repellat cumque soluta accusamus exercitationem, cum similique aspernatur vero magnam!
+      </p>
+    </div>
+  </div>
+  <footer id="footer">
+    <br>
+    Made with ♥ by <a href="https://www.muicss.com">MUI</a>
+    </div>
+  </footer>
 </body>
 
 </html>
