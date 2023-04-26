@@ -47,10 +47,47 @@
     <!-- empty div creating padding so content is below header -->
     <div class="mui--appbar-height"></div>
     <div class="mui-container-fluid">
-      <h1>Weather display and info</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci qui quasi tempore praesentium quibusdam velit eveniet corporis optio quaerat sed repellat cumque soluta accusamus exercitationem, cum similique aspernatur vero magnam!
-      </p>
+      <!-- city info displayed here -->
+      <center>
+        <h1 id="city-name">Ogden</h1>
+        <h2 id="current-time">Current Time</h2>
+        <div id="current-conditions">
+          <p id="current-temp">75F</p>
+          <p id="current-wind">7 mph</p>
+          <p id="current-humidity">45%</p>
+        </div>
+      </center>
+      <!-- 5-day weather forecast -->
+      <div id="forecast-container">
+        <h2>Five Day Forecast</h2>
+        <div class="weather-cards">
+          <div class="forcast" id="day1">
+            <p class="date">4/25/23</p>
+            <p class="min-temp">45F</p>
+            <p class="max-temp">75F</p>
+          </div>
+          <div class="forcast" id="day2">
+            <p class="date">4/26/23</p>
+            <p class="min-temp">45F</p>
+            <p class="max-temp">75F</p>
+          </div>
+          <div class="forcast" id="day3">
+            <p class="date">4/27/23</p>
+            <p class="min-temp">45F</p>
+            <p class="max-temp">75F</p>
+          </div>
+          <div class="forcast" id="day4">
+            <p class="date">4/28/23</p>
+            <p class="min-temp">45F</p>
+            <p class="max-temp">75F</p>
+          </div>
+          <div class="forcast" id="day5">
+            <p class="date">4/29/23</p>
+            <p class="min-temp">45F</p>
+            <p class="max-temp">75F</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <footer id="footer">
