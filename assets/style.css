@@ -94,7 +94,7 @@ button {
 
 /* making the first letter of headers capitalized */
 h1::first-letter, 
-#city-list::first-letter {
+strong::first-letter {
   text-transform: capitalize;
 }
 

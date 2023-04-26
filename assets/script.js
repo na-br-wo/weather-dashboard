@@ -28,13 +28,18 @@ function citySearch() {
 }
 
 function displayCityList(cityList) {
-  // initial clearing of HTML
+  // clearing the HTML
+  citySearchHistory.innerHTML = '';
+
+  
   for (let i = 0; i < cityList.length; i++) {
     // creating a list-item <strong> element for each item in the cityList array
     let city = document.createElement('strong')
+    
 
     // setting the text of the dynamic elements
     city.textContent = cityList[i]
+    console.log(cityList[i])
 
     // appending to the HTML
     citySearchHistory.append(city)
