@@ -92,6 +92,11 @@ button {
   }
 }
 
+/* making the first letter of headers capitalized */
+h1::first-letter {
+  text-transform: capitalize;
+}
+
 /**
   Toggle sidedrawer
 */
